@@ -1,0 +1,26 @@
+/*transitions ------------------------------------------*/
+.generic-trans-enter, .generic-trans-appear,
+.terms-trans-enter, .terms-trans-appear {
+  opacity: 0.01;
+}
+
+.generic-trans-enter.generic-trans-enter-active, .generic-trans-appear.generic-trans-appear-active,
+.terms-trans-enter.terms-trans-enter-active, .terms-trans-appear.terms-trans-appear-active {
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
+}
+
+.generic-trans-leave,
+.terms-trans-leave {
+  opacity: 1;
+}
+
+.generic-trans-leave.generic-trans-leave-active {
+  opacity: 0.01;
+  transition: opacity 0.3s ease-out;
+}
+
+.terms-trans-leave.terms-trans-leave-active {
+  opacity: 0.01;
+  transition: opacity 0.01s ease-out;
+}

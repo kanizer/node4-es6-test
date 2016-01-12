@@ -1,0 +1,52 @@
+/* global ------------------------------------------*/
+
+body {
+  font-family: $reg;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 0.07em;
+  color: #677889;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+    cursor: hand;
+  }
+}
+
+.root {
+  min-height: 100%;
+  position: relative;
+  display: block;
+}
+
+.content {
+  display: block;
+  margin: 0 auto;
+  padding-top: $headerH;
+  padding-bottom: $footerH;
+}
+
+.push {
+  height: 8em;
+  display: inline-block;
+}
+
+.center {
+  margin: 0 auto;
+  display: block;
+  float: none;
+}
+
+.btn-wrapper {
+  display: inline-block;
+}
